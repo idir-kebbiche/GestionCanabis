@@ -1,4 +1,6 @@
 Gestion d'Inventaire des Plantes de Cannabis 🌿💻
+
+
 Description du Projet
 Ce projet vise à développer une application de gestion d'inventaire des plantes de cannabis, comprenant une version desktop et une version mobile. L'application permettra aux utilisateurs (Vendeur) de saisir, modifier et consulter les informations relatives à chaque plante, ainsi que de générer et d'imprimer des codes QR uniques pour une identification facile.
 
