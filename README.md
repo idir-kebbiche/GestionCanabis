@@ -17,6 +17,8 @@ La validation de l'efficacité et de la satisfaction des utilisateurs sera réal
 Le suivi et la maintenance de l'application seront assurés à travers un canal de communication avec les utilisateurs, l'analyse et la priorisation des problèmes, des mises à jour régulières du logiciel, et des tests de validation.
 
 🚀 Contributeurs
-# idir kebbiche
-# Bouguettaya Amine
-# Massinissa idir Rahmani
+- Idir Kebbiche
+- Bouguettaya Amine
+- Massinissa Idir Rahmani
+- Issad Rayan
+- Mohamed Amine Berrdjem
