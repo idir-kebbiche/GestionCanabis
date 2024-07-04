@@ -16,6 +16,15 @@ La validation de l'efficacité et de la satisfaction des utilisateurs sera réal
 🛠️ Modalités de Suivi et de Maintenance
 Le suivi et la maintenance de l'application seront assurés à travers un canal de communication avec les utilisateurs, l'analyse et la priorisation des problèmes, des mises à jour régulières du logiciel, et des tests de validation.
 
+Pour Executer l'application:
+1-Lancer le code Backend Application Hachiche avec ces commandes :
+ -npm i
+ -node app
+
+2-Lancer le code Application Desktop Hachiche V3 avec ces commandes : 
+ -npm i
+ -npm start
+
 🚀 Contributeurs
 - Idir Kebbiche
 - Bouguettaya Amine
