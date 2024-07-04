@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav {
+    width: 200px; /* Largeur de la navbar */
+    background-color: #4CAF50; /* Couleur de fond vert cannabis */
+    padding: 20px 0;
+    height: 100vh; /* Hauteur de la navbar égale à la hauteur de la fenêtre */
+    position: fixed; /* Navbar fixée à gauche */
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Permet le défilement si la liste des liens dépasse la hauteur de la navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+.navbar-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar-logo {
+    width: 50px; /* Ajustez la taille du logo selon vos besoins */
+    height: 50px; /* Ajustez la taille du logo selon vos besoins */
+    margin-bottom: 10px;
+}
+
+.navbar-title {
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+
+#content {
+    margin-left: 220px; /* Marge à gauche pour laisser de l'espace à la navbar */
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.description {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.description h2 {
+    color: #4CAF50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="navbar-header">
+            <img src="cannabis.png" alt="Logo" class="navbar-logo">
+            <h3 class="navbar-title">Dashboard</h3>
+        </div>
+        <ul>
+            <li><a href="#" id="homeLink">Notre Stock 🗃️</a></li>
+            <li><a href="#" id="responsableLink">Responsable Décontamination 🌿</a></li>
+            <li><a href="#" id="entreposageLink">Entreposage 📦</a></li>
+            <li><a href="#" id="plantulesLink">Plantules 🌱</a></li>
+            <li><a href="#" id="modificationLink">Modifications 🛠️</a></li>
+            <li><a href="#" id="uploadLink">Upload 📁</a></li>
+            <li><a href="#" id="logoutLink">Déconnexion 🚪</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <h1>Bienvenue sur le Dashboard</h1>
+        <div class="description">
+            <h2>Fonctionnement de l'application</h2>
+            <p>Cette application vous permet de gérer le stock de cannabis de manière efficace et organisée. Voici une description des différentes sections de l'application :</p>
+            <h2>Notre Stock 🗃️</h2>
+            <p>Cette section vous offre une vue d'ensemble de notre stock actuel, incluant les quantités disponibles et les informations essentielles à connaître.</p>
+            <h2>Responsable Décontamination 🌿</h2>
+            <p>Ici, vous pouvez gérer les responsables de décontamination, assigner des tâches et suivre les progrès.</p>
+            <h2>Entreposage 📦</h2>
+            <p>Cette section vous permet de gérer l'entreposage des plants, y compris l'ajout, le suivi et l'organisation des stocks.</p>
+            <h2>Plantules 🌱</h2>
+            <p>Dans cette section, vous pouvez gérer les plantules, y compris leur ajout, modification, et suppression.</p>
+            <h2>Modifications 🛠️</h2>
+            <p>Cette section permet de modifier les informations existantes sur les plants et autres éléments de l'inventaire.</p>
+            <h2>Upload 📁</h2>
+            <p>Cette section vous permet de télécharger des fichiers pour mettre à jour l'inventaire en masse.</p>
+            <h2>Déconnexion 🚪</h2>
+            <p>Utilisez ce lien pour vous déconnecter de l'application de manière sécurisée.</p>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+    <script src="responsables.js"></script>
+    <script src="entreposage.js"></script>
+    <script src="plantules.js"></script>
+    <script src="modification.js"></script>
+</body>
+</html>

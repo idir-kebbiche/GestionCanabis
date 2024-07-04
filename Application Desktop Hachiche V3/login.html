@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connexion - Gestion d'Inventaire des Plantules de Cannabis</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('C.png') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #loginResponse {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Connexion</h1>
+        <p>Veuillez vous connecter pour accéder à la gestion de l'inventaire des plantules de cannabis.</p>
+
+        <!-- Formulaire de connexion -->
+        <h2>Se connecter</h2>
+        <form id="loginForm">
+            <input type="text" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Mot de passe">
+            <button type="button" id="loginBtn">Se connecter</button>
+        </form>
+        <div id="loginResponse"></div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
